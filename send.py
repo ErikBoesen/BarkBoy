@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from groupy import Client
 import os
 import random
