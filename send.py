@@ -15,7 +15,7 @@ MESSAGES = [
     "Good morning to all the brothers",
 ]
 
-token = os.environ["GROUPME_ACCESS_TOKEN"]
+token = os.environ.get("GROUPME_ACCESS_TOKEN")
 if not token:
     with open(os.environ["HOME"] + "/groupme_token.txt", "r") as f:
         token = f.read().strip()
