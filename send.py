@@ -4,7 +4,7 @@ from groupy import Client
 import os
 import random
 
-GROUP_ID = 57653465
+GROUP_ID = 57639249
 MESSAGES = [
     "Good morning",
     "good morning",
